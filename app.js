@@ -267,6 +267,11 @@ function showMobileNotice() {
   if (isMobile()) {
     const notice = document.getElementById('mobile-notice');
     if (notice) notice.classList.add('show');
+    // Hide download buttons on mobile — no desktop app to download
+    const downloads = document.getElementById('download-buttons');
+    if (downloads) downloads.style.display = 'none';
+    const macHelp = document.querySelector('.mac-help');
+    if (macHelp) macHelp.style.display = 'none';
   }
 }
 
