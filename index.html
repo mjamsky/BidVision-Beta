@@ -206,10 +206,13 @@
             <ol>
               <li>Unzip the downloaded file</li>
               <li>Drag BidVision to your Applications folder</li>
-              <li>Right-click the app and select <strong>Open</strong> (first time only)</li>
-              <li>Click <strong>Open</strong> in the dialog &mdash; this bypasses Gatekeeper for unsigned apps</li>
-              <li>After the first launch, you can open it normally</li>
+              <li>Try to open it &mdash; macOS will block it the first time</li>
+              <li>Open <strong>System Settings &rarr; Privacy &amp; Security</strong></li>
+              <li>Scroll down &mdash; you'll see "BidVision was blocked." Click <strong>Open Anyway</strong></li>
+              <li>Click <strong>Open</strong> in the confirmation dialog</li>
+              <li>After the first launch, it opens normally</li>
             </ol>
+            <p style="color: var(--text-muted); margin-top: 8px;">This happens because BidVision isn't code-signed yet &mdash; it's safe to proceed. Code signing is planned for the public release.</p>
 
             <h4>Windows</h4>
             <ol>
