@@ -19,7 +19,7 @@ const GAS_URL = 'https://script.google.com/macros/s/AKfycbwjblbmuaLILUOfsG3oW9By
 const DOWNLOADS = {
   'mac-arm':  'https://github.com/mjamsky/BidVision-Beta/releases/download/v0.2.0-b5/BidVision-macOS-Apple-Silicon.zip',
   'mac-intel': 'https://github.com/mjamsky/BidVision-Beta/releases/download/v0.2.0-b5/BidVision-macOS-Intel.zip',
-  'windows':  'https://github.com/mjamsky/BidVision-Beta/releases/download/v0.2.0-b5/BidVision-Windows.zip',
+  'windows':  'https://github.com/mjamsky/BidVision-Beta/releases/download/v0.2.0-b5/BidVision-Windows-Setup.exe',
 };
 
 // === State management ===
