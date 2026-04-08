@@ -161,7 +161,7 @@ function sendWelcomeEmail(name, email) {
         <li>Go to <a href="${CONFIG.LANDING_PAGE_URL}" style="color: #8B5E3C;">${CONFIG.LANDING_PAGE_URL}</a></li>
         <li>Enter your access code</li>
         <li>Download the build for your computer</li>
-        <li>Check the getting-started guide in the ZIP</li>
+        <li>Follow the install instructions on the page</li>
       </ol>
 
       <p><strong>What to try:</strong></p>
@@ -174,7 +174,7 @@ function sendWelcomeEmail(name, email) {
       <p><strong>Found a bug or have feedback?</strong></p>
       <ul style="line-height: 1.8;">
         <li><a href="${CONFIG.FORM_URL}" style="color: #8B5E3C;">Submit a report</a> (takes 30 seconds)</li>
-        <li>Or drop it in the group chat — screenshots, questions, whatever</li>
+        <li>Or use the Feedback button in the app</li>
       </ul>
 
       <p style="margin-top: 24px; padding-top: 16px; border-top: 1px solid #EDE8DE; font-size: 13px; color: #7A766F;">
