@@ -171,6 +171,9 @@ function sendWelcomeEmail(name, email) {
         <li>Break things! That's what beta is for</li>
       </ul>
 
+      <p><strong>Need your bid sheet?</strong></p>
+      <p style="line-height: 1.8;">Log into the <a href="https://faportal.aa.com" style="color: #8B5E3C;">FA Portal</a>, then go to <strong>Bidding Resources &rarr; Crew Planning &rarr; Current Bid Sheets</strong>. Pick your base and save the PDF.</p>
+
       <p><strong>Found a bug or have feedback?</strong></p>
       <ul style="line-height: 1.8;">
         <li><a href="${CONFIG.FORM_URL}" style="color: #8B5E3C;">Submit a report</a> (takes 30 seconds)</li>
